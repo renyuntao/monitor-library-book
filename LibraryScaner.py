@@ -69,6 +69,7 @@ for line in urls:
 	# Check if the book is available
 	if '在架上' in content:
 		BookAvailable = True
+	# Have the possible of '非可借'
 	elif '可借' in content:
 		BookAvailable = True
 	elif '在馆' in content:  
